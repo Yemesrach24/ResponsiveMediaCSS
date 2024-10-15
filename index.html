@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Query</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+    /*  Mobile Devices: 319px — 480px */
+    @media (min-width:319px ) and (max-width:480px) { 
+      body{
+         background-color: lightsalmon  ;
+      }
+      
+    }
+     
+    /* powderblue iPads and Tablets: 481px — 1200px*/
+     @media (min-width:481px)  and (max-width:1200px)
+     {
+      body{
+        background-color: powderblue  ;
+      }
+     }
+    
+
+    /*Laptops: 1201px — 1600px */
+    @media (min-width:481px) and (max-width: )
+    {
+      body{
+        background-color: limegreen;
+      }
+    }
+
+    /* Desktops: 1601px and more */ 
+    @media (min-width: 1601px)
+    {
+      body{
+        background-color: seagreen;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+<h1> Responsive website for diferent devices using Media  Query</h1>
+<p>changes background color for differet devices </p>
+<ul>
+  <li> [lightsalmon] for Mobile Devices</li>
+   <li> [powderblue] for iPads and Tablets</li>
+   <li> [limegreen] for Laptops</li>
+   <li> [seagreen] for  Desktops</li>
+</ul>
+</body>
+
+</html>
